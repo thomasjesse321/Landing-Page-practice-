@@ -1,0 +1,1 @@
+With this project I hope to create an entire webpage using nothing but two refrence images provided through The Odin Project. My goal is to create a webpage that's setup and layout are identical (though not down to the pixel) to the refernce images i'm using. 
