@@ -31,7 +31,13 @@
 .image1 {
     display: flex;
     height: 300px;
+    margin-bottom: 150px;
 }
+
+.header {
+    margin: 30px;
+}
+
 .header li {
     list-style-type: none;
 }
@@ -71,4 +77,38 @@ button {
     margin-top: 10px;
     padding: 10px;
     width: 200px;
+    background-color: #3882F6;
+}
+
+.section2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+img {
+    width: 40vh;
+    height: 40vh;
+    border: solid;
+    border-color: #3882F6;
+}
+
+.images {
+    display: flex;
+    flex-flow: row wrap;
+    flex: 1, 1, auto;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 100px;
+    margin: 50px;
+}
+
+p {
+    text-align: center;
+}
+
+.section2 .header {
+    margin-top: 70px;
+    margin-bottom: none;
 }
