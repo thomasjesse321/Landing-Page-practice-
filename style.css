@@ -2,6 +2,7 @@
    box-sizing: border-box;
    padding: 0;
    margin: 0;
+   flex: 0, 1, auto
 }
 
 .section1 {
@@ -16,6 +17,7 @@
     font-weight: 900;
     color: #F9FAF8;
     display: flex;
+    border-radius: 25px;
 }
 
 .herotext {
@@ -26,16 +28,20 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
+    border-radius: 25px;
 }
 
 .image1 {
     display: flex;
     height: 300px;
     margin-bottom: 150px;
+    border-radius: 25px;
+    flex: 0, 1, auto;
 }
 
 .header {
     margin: 30px;
+    border-radius: 25px;
 }
 
 .header li {
@@ -71,6 +77,9 @@ ul {
  justify-content: center;
  align-items: center;
  gap: 200px;
+ border-radius: 25px;
+ margin: 50px;
+ margin-top: 100px;
 }
 
 button {
@@ -78,6 +87,7 @@ button {
     padding: 10px;
     width: 200px;
     background-color: #3882F6;
+    border-radius: 25px;
 }
 
 .section2 {
@@ -91,6 +101,7 @@ img {
     height: 40vh;
     border: solid;
     border-color: #3882F6;
+    border-radius: 25px;
 }
 
 .images {
@@ -103,6 +114,7 @@ img {
     padding: 100px;
     margin: 50px;
     margin-top:10px;
+    border-radius: 25px;
 }
 
 p {
@@ -120,8 +132,48 @@ p {
 .section3 {
     background-color: #E5E7EB;
     font-style: italic;
+    font-size: 36px;
     color: #1F2937;
     padding: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.section4 {
+   padding: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.banner {
+    padding: 80px;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    color: white;
+    border-radius: 25px;
+}
+
+.bannertext {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.bannerbutton {
+    display: flex;
+    color: white;
+    border-radius: 25px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 30px;
     display: flex;
     justify-content: center;
 }
