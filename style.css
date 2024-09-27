@@ -102,6 +102,7 @@ img {
     gap: 30px;
     padding: 100px;
     margin: 50px;
+    margin-top:10px;
 }
 
 p {
@@ -111,4 +112,7 @@ p {
 .section2 .header {
     margin-top: 70px;
     margin-bottom: none;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
 }
