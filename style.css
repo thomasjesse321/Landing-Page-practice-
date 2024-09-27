@@ -116,3 +116,12 @@ p {
     color: #1F2937;
     font-weight: 900;
 }
+
+.section3 {
+    background-color: #E5E7EB;
+    font-style: italic;
+    color: #1F2937;
+    padding: 200px;
+    display: flex;
+    justify-content: center;
+}
